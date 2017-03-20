@@ -31,6 +31,8 @@ get_header(); ?>
 			// Start the loop.
 			while ( have_posts() ) : the_post();
 
+echo the_ratings_results(get_the_id());
+
 				/*
 				 * Include the Post-Format-specific template for the content.
 				 * If you want to override this in a child theme, then include a file

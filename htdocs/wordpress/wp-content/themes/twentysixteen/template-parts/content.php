@@ -38,6 +38,9 @@
 				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 		?>
+
+<?php echo the_ratings_results(get_the_id()); ?>
+
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
